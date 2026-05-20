@@ -36,7 +36,7 @@ function FramerTimeline({ animKey }: { animKey: number }) {
     return () => {
       cancelled = true
     }
-  }, [animKey, animate])
+  }, [animKey])
 
   return (
     <div ref={scope} style={{ width: '100%', padding: '0 1.5rem' }}>
